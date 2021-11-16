@@ -1,3 +1,20 @@
-h1 {
-    font-size: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:ital,wght@1,200;1,500&display=swap");
+
+/*# sourceMappingURL=style.css.map */
+
+.jumbotron {
+    background-image: url(images/exclusive_knives.png);
+    background-size: auto;
+    height: 50vh;
+}
+
+.jumbotron h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    background-color: rgba(0, 0, 0, 0.399);
+    font-size: 80px;
+}
+
+.jumbotron p {
+    background-color: rgba(0, 0, 0, 0.399);
+    font-family: 'Montserrat', sans-serif;
 }
