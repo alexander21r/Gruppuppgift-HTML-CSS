@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="reseller.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Knif - återförsäljare</title>
+  </head>
+
+  <body>
+    <!--Jumotron - översta bilden med namn på produkt-->
+    <div
+      class="jumbotron jumbotron-fluid"
+      style="
+        background-image: url(images/Best-Kitchen-Knives.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="row">
+        <div class="col-4 text-center text-light">
+          <h1 class="display-4">Knif</h1>
+          <p class="lead">Återförsäljare</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Knif</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productList.html">Produkter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#återförsäljare"
+                >Hitta återförsäljare</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#karta">Karta</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" id="återförsäljare">
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <h1 class="d-flex justify-content-center p-4">Cervera Stockholm</h1>
+          <img
+            src="images/cerverastockholm.jpg"
+            alt="cervera"
+            class="img-fluid img-thumbnail mx-auto d-block butiker mb-4"
+          />
+          <button
+            type="button"
+            data-bs-placement="top"
+            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            data-bs-toggle="popover"
+            title="Cervera Stockholm"
+            data-bs-content="Sveavägen 24, 111 57 Stockholm 073-123456"
+          >
+            Klicka för att se adress
+          </button>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <h1 class="d-flex justify-content-center p-4">
+            Köksspecialisten Stockholm
+          </h1>
+          <img
+            src="images/koksspecialistenstockholm.jpg"
+            alt="cervera"
+            class="img-fluid img-thumbnail mx-auto d-block butiker mb-4"
+          />
+          <button
+            type="button"
+            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            data-bs-placement="top"
+            data-bs-toggle="popover"
+            title="Köksspecialisten Stockholm"
+            data-bs-content="Fläderstigen 13, 170 67 Solna 073-123456"
+          >
+            Klicka för att se adress
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <h1 class="d-flex justify-content-center p-4">Cervera Göteborg</h1>
+          <img
+            src="images/cerveragöteborg.jpg"
+            alt="cervera"
+            class="img-fluid img-thumbnail mx-auto d-block butiker mb-4"
+          />
+          <button
+            type="button"
+            data-bs-placement="top"
+            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            data-bs-toggle="popover"
+            title="Cervera Göteborg"
+            data-bs-content="Östra Hamngatan 33, 411 10 Göteborg 073-123456"
+          >
+            Klicka för att se adress
+          </button>
+        </div>
+        <div class="col-sm-6">
+          <h1 class="d-flex justify-content-center p-4">Kvik Malmö</h1>
+          <img
+            src="images/kvikmalmö.jpg"
+            alt="cervera"
+            class="img-fluid img-thumbnail mx-auto d-block butiker mb-4"
+          />
+          <button
+            type="button"
+            data-bs-placement="top"
+            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            data-bs-toggle="popover"
+            title="Kvik Malmö"
+            data-bs-content="Drakagatan 4A, 215 86 Malmö 073-123456"
+          >
+            Klicka för att se adress
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <iframe
+      id="karta"
+      src="https://www.google.co.uk/maps/d/embed?mid=1g7-T5d-KbL4N-ox9WIhqz6iuj08SKchi"
+      width="640"
+      height="480"
+    ></iframe>
+
+    <div class="bg-dark text-white">
+      <footer class="text-center">
+        <div class="pt-4 pb-4">
+          © 2020 Copyright:
+          <a class="text-white" href="#">Knif</a>
+          <span class="d-flex justify-content-center text-white pt-4 pb-2">
+            <a href="#"><i class="fab fa-facebook-f text-white mx-4"></i></a>
+            <a href="#"><i class="fab fa-twitter text-white mx-4"></i></a>
+            <a href="#"><i class="fab fa-google text-white mx-4"></i></a>
+            <a href="#"><i class="fab fa-instagram text-white mx-4"></i></a>
+            <a href="#"><i class="fab fa-linkedin text-white mx-4"></i></a>
+            <a href="#"><i class="fab fa-github text-white mx-4"></i></a>
+          </span>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      //Script för knapparna som vissar adressen när man trycker
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    </script>
+  </body>
+</html>
