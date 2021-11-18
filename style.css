@@ -28,3 +28,11 @@ iframe {
 .nav-item:hover {
   background-color: grey;
 }
+body {
+  overflow-x: hidden;
+}
+
+.butiker {
+  height: 20rem;
+  width: 40rem;
+}
