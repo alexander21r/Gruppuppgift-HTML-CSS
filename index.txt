@@ -1,6 +1,0 @@
-*Snygga till nav. Lägg till dropdown till höger med populäraste knivar
-
-*Lägga till carousel till hemsidan
-*betyg från kockar.
-*erbjudande
-*Göm och visa karta
