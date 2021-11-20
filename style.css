@@ -39,11 +39,26 @@ body {
     overflow-x: hidden;
 }
 
+/* Header */
+.header-mini-head{
+    padding-left: 90px;
+}
+
+.header-head{
+    font-size: 50px;
+    word-break: break-word;
+}
+
+.header-content-text p{
+    font-size: 20px;
+}
+/* Header SLUT*/
+
 .butiker {
     height: 20rem;
     width: 40rem;
 }
-
+/* Slipa kniv del */
 .content-text{
     background-color: rgba(238, 236, 234, 0.381);
 }
@@ -53,7 +68,7 @@ body {
 }
 
 .content-image img{
-    
     width:100%;
-    
 }
+/* Slipa kniv del  SLUT*/
+
