@@ -18,6 +18,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
     <script src="reseller.js"></script>
     <link rel="stylesheet" href="style.css" />
 
@@ -155,14 +156,18 @@
         </div>
       </div>
     </div>
-
-    <iframe
+    <div class="map-button" >
+      <button id="mapButton" type="button" onclick="hideShowMap()">Göm karta</button>
+    </div>
+      <div id="map">
+        <iframe 
       id="karta"
       src="https://www.google.co.uk/maps/d/embed?mid=1g7-T5d-KbL4N-ox9WIhqz6iuj08SKchi"
       width="640"
       height="480"
     ></iframe>
-
+      </div>
+    
     <div class="bg-dark text-white">
       <footer class="text-center">
         <div class="pt-4 pb-4">

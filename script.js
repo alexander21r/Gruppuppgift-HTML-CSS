@@ -24,3 +24,18 @@ function moreInfoChef(x) {
 }
 
 // Bladet har 210 lager Damaskusstål, som skapar dess vackra mönster.
+
+// Funktion för karta Visa/Göm
+function hideShowMap(){
+    var x = document.getElementById("map");
+    var y = document.getElementById("mapButton");
+    if(x.style.display === "none"){
+        x.style.display = "block";
+        document.getElementById("mapButton").innerHTML = "Göm karta"
+
+    }else{
+        x.style.display = "none";
+        document.getElementById("mapButton").innerHTML = "Visa karta"
+    }
+
+}
