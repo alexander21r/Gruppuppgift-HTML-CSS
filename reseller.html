@@ -27,14 +27,7 @@
 
   <body>
     <!--Jumotron - översta bilden med namn på produkt-->
-    <div
-      class="jumbotron jumbotron-fluid"
-      style="
-        background-image: url(images/Best-Kitchen-Knives.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      "
-    >
+    <div class="jumbotron jumbotron-fluid jumbotron-reseller">
       <div class="row">
         <div class="col-4 text-center text-light">
           <h1 class="display-4">Knif</h1>
@@ -44,7 +37,7 @@
     </div>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -68,7 +61,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#karta">Karta</a>
+              <a class="nav-link" href="index.html#contact">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -87,7 +80,7 @@
           <button
             type="button"
             data-bs-placement="top"
-            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            class="btn btn-lg mx-auto d-block m-4 buttons"
             data-bs-toggle="popover"
             title="Cervera Stockholm"
             data-bs-content="Sveavägen 24, 111 57 Stockholm 073-123456"
@@ -106,7 +99,7 @@
           />
           <button
             type="button"
-            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            class="btn btn-lg mx-auto d-block m-4 buttons"
             data-bs-placement="top"
             data-bs-toggle="popover"
             title="Köksspecialisten Stockholm"
@@ -128,7 +121,7 @@
           <button
             type="button"
             data-bs-placement="top"
-            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            class="btn btn-lg mx-auto d-block m-4 buttons"
             data-bs-toggle="popover"
             title="Cervera Göteborg"
             data-bs-content="Östra Hamngatan 33, 411 10 Göteborg 073-123456"
@@ -146,7 +139,7 @@
           <button
             type="button"
             data-bs-placement="top"
-            class="btn btn-lg btn-danger mx-auto d-block m-4"
+            class="btn btn-lg mx-auto d-block m-4 buttons"
             data-bs-toggle="popover"
             title="Kvik Malmö"
             data-bs-content="Drakagatan 4A, 215 86 Malmö 073-123456"
@@ -156,18 +149,20 @@
         </div>
       </div>
     </div>
-    <div class="map-button" >
-      <button id="mapButton" type="button" onclick="hideShowMap()">Göm karta</button>
+    <div class="map-button">
+      <button id="mapButton" type="button" onclick="hideShowMap()">
+        Göm karta
+      </button>
     </div>
-      <div id="map">
-        <iframe 
-      id="karta"
-      src="https://www.google.co.uk/maps/d/embed?mid=1g7-T5d-KbL4N-ox9WIhqz6iuj08SKchi"
-      width="640"
-      height="480"
-    ></iframe>
-      </div>
-    
+    <div id="map">
+      <iframe
+        id="karta"
+        src="https://www.google.co.uk/maps/d/embed?mid=1g7-T5d-KbL4N-ox9WIhqz6iuj08SKchi"
+        width="640"
+        height="480"
+      ></iframe>
+    </div>
+
     <div class="bg-dark text-white">
       <footer class="text-center">
         <div class="pt-4 pb-4">

@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:ital,wght@1,200;1,500&display=swap");
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 nav {
   background-color: #3a3a3a;
 }
 
-.jumbotron h1 p {
+.jumbotron h1 p,
+.buttons,
+#mapButton {
   background-color: #00000068;
+  color: black;
 }
 
 .jumbotron {
@@ -103,5 +106,31 @@ body {
 
 .map-button button:hover {
   background-color: #652d32;
+}
+
+.mail {
+  text-decoration: none;
+  color: white;
+}
+
+.jumbotron-index {
+  background-image: url(images/Best-Kitchen-Knives.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.jumbotron-product {
+  background-image: url(images/three_knives.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.jumbotron-reseller {
+  background-image: url(images/Best-Kitchen-Knives.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */
