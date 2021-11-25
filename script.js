@@ -10,8 +10,10 @@ class Knife {
 let knives = [];
 
 knives.push(new Knife("Kockkniv 180", "180 mm långt och består av 210 lager damaskusstål.", "Valnöt", "8-10 veckor"));
-knives.push(new Knife("Trancherkniv 160", "160 mm långt och består av 120 lager damaskusstål.", "Valnöt", "6-8 veckor"));
-knives.push(new Knife("Skalkniv 90", "90 mm långt och består av 140 lager damaskusstål.", "Valnöt", "1-2 veckor"));
+knives.push(new Knife("Kockkniv 140", "140 mm långt och består av 210 lager damaskusstål.", "Valnöt", "6-8 veckor"));
+knives.push(new Knife("Trancherkniv 160", "160 mm långt och består av 120 lager damaskusstål.", "Valnöt", "3-4 veckor"));
+knives.push(new Knife("Skalkniv 90", "90 mm långt och består av 140 lager damaskusstål.", "Valnöt", "6-8 veckor"));
+knives.push(new Knife("Brödkniv 270", "270 mm långt och består av 210 lager damaskusstål.", "Valnöt", "2-4 veckor"));
 
 
 function moreInfoChef(x) {
