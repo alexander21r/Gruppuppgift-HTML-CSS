@@ -43,13 +43,17 @@ body {
   overflow-x: hidden;
 }
 
+body h2 {
+  font-weight: 700;
+}
+
 .butiker {
   height: 20rem;
   width: 40rem;
 }
 
 .content-text p {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .content-image img {
@@ -92,14 +96,25 @@ body {
 }
 
 .article {
-  width: 200px;
-  height: 400px;
-  margin-bottom: 200px;
+  background-color: #f8f4f4;
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+  border-radius: 5px 5px 5px;
+}
+
+.article h2 {
+  font-weight: 700;
 }
 
 .article img {
   width: 100%;
   height: 100%;
+  border-radius: 5px 5px 5px;
+}
+
+.article .article-img-1 {
+  padding-top: 23px;
 }
 
 .map-button {

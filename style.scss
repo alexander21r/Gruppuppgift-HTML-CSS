@@ -49,6 +49,9 @@ iframe {
 
 body {
     overflow-x: hidden;
+    h2{
+        font-weight: 700;
+    }
 }
 
 .butiker {
@@ -58,7 +61,7 @@ body {
 
 .content-text {
     p {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 }
 .content-image img{
@@ -93,15 +96,26 @@ body {
   
 }
 
-.article {
-    width: 200px;
-    height: 400px;
-    margin-bottom: 200px;
-    img {
+    .article {
+        background-color: #f8f4f4;
+        padding:20px;
         width: 100%;
-        height: 100%;
+        height: 90%;
+        border-radius: 5px 5px 5px;
+        h2{
+            font-weight: 700;
+        }
+    
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px 5px 5px;
+        }
+        .article-img-1{
+            padding-top: 23px;
+        }
     }
-}
+
 
 .map-button {
     display: flex;
@@ -129,3 +143,4 @@ body {
     background-image: url(images/Best-Kitchen-Knives.jpeg);
     @include jumbotron();
 }
+
