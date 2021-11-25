@@ -2,64 +2,64 @@
 $navbarColor: #3a3a3a;
 $bgcolorJumbo: #00000068;
 @mixin jumbotron {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100% 100%;
-  height: 17rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
 }
 
 * {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
+
 nav {
-  background-color: $navbarColor;
+    background-color: $navbarColor;
 }
 
 .jumbotron h1 p,
 .buttons,
 #mapButton {
-  background-color: $bgcolorJumbo;
-  color: black;
+    background-color: $bgcolorJumbo;
+    color: black;
 }
 
 .jumbotron {
-  background-image: url(images/exclusive_knives.png);
-  background-size: auto;
-  height: 50vh;
+    background-image: url(images/exclusive_knives.png);
+    background-size: auto;
+    height: 50vh;
 }
 
 .jumbotron h1 {
-  font-family: "Montserrat Subrayada", sans-serif;
-  font-size: 80px;
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-size: 80px;
 }
 
 .jumbotron p {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 iframe {
-  width: 100%;
-  height: 30em;
-  display: block;
+    width: 100%;
+    height: 30em;
+    display: block;
 }
 
 .nav-item:hover {
-  background-color: grey;
+    background-color: grey;
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .butiker {
-  height: 20rem;
-  width: 40rem;
+    height: 20rem;
+    width: 40rem;
 }
 
 .content-text {
-  p {
-    padding-top: 40px;
-  }
+    p {
+        padding-top: 40px;
+    }
 }
 .content-image img{
     width: 100%;
@@ -67,8 +67,8 @@ body {
 }
 
 .carousel-text {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .row-car{
     width: 100%;
@@ -94,24 +94,24 @@ body {
 }
 
 .article {
-  width: 200px;
-  height: 400px;
-  margin-bottom: 200px;
-  img {
-    width: 100%;
-    height: 100%;
-  }
+    width: 200px;
+    height: 400px;
+    margin-bottom: 200px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .map-button {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .mail {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .jumbotron-index {
@@ -121,11 +121,11 @@ body {
 }
 
 .jumbotron-product {
-  background-image: url(images/three_knives.jpeg);
-  @include jumbotron();
+    background-image: url(images/three_knives.jpeg);
+    @include jumbotron();
 }
 
 .jumbotron-reseller {
-  background-image: url(images/Best-Kitchen-Knives.jpeg);
-  @include jumbotron();
+    background-image: url(images/Best-Kitchen-Knives.jpeg);
+    @include jumbotron();
 }
