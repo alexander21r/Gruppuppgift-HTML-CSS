@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:ital,wght@1,200;1,500&display=swap");
-
 * {
   font-family: "Raleway", sans-serif;
 }
@@ -13,12 +12,6 @@ nav {
 #mapButton {
   background-color: #00000068;
   color: black;
-}
-
-.jumbotron {
-  background-image: url(images/exclusive_knives.png);
-  background-size: auto;
-  height: 50vh;
 }
 
 .jumbotron h1 {
@@ -67,8 +60,8 @@ body h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .row-car {
@@ -123,8 +116,8 @@ body h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -133,25 +126,11 @@ body h2 {
   color: white;
 }
 
-.jumbotron-index {
+.jumbotron {
   background-image: url(images/Best-Kitchen-Knives.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
+  background-size: 100% 140%;
 }
-
-.jumbotron-product {
-  background-image: url(images/Best-Kitchen-Knives.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-}
-
-.jumbotron-reseller {
-  background-image: url(images/Best-Kitchen-Knives.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-}
-
 /*# sourceMappingURL=style.css.map */

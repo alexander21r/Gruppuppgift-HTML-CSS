@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:ital,wght@1,200;1,500&display=swap");
 $navbarColor: #3a3a3a;
 $bgcolorJumbo: #00000068;
-@mixin jumbotron {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-}
+
 
 * {
     font-family: "Raleway", sans-serif;
@@ -20,12 +16,6 @@ nav {
 #mapButton {
     background-color: $bgcolorJumbo;
     color: black;
-}
-
-.jumbotron {
-    background-image: url(images/exclusive_knives.png);
-    background-size: auto;
-    height: 50vh;
 }
 
 .jumbotron h1 {
@@ -128,19 +118,13 @@ body {
     color: white;
 }
 
-.jumbotron-index {
+.jumbotron {
   background-image: url(images/Best-Kitchen-Knives.jpeg);
-  @include jumbotron();
-  height: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-size: 100% 140%;
+  
 }
 
-.jumbotron-product {
-    background-image: url(images/three_knives.jpeg);
-    @include jumbotron();
-}
-
-.jumbotron-reseller {
-    background-image: url(images/Best-Kitchen-Knives.jpeg);
-    @include jumbotron();
-}
 
