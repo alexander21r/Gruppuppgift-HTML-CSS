@@ -147,11 +147,17 @@ body h2 {
   .jumbotron {
     height: 40vh;
   }
+  .jumbotron h1 {
+    font-size: 70px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .jumbotron {
     height: 30vh;
+  }
+  .jumbotron h1 {
+    font-size: 60px;
   }
 }
 /*# sourceMappingURL=style.css.map */

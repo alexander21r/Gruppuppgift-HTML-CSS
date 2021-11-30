@@ -2,157 +2,159 @@
 $navbarColor: #3a3a3a;
 $bgcolorJumbo: #00000068;
 
-
 * {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 nav {
-    background-color: $navbarColor;
+  background-color: $navbarColor;
 }
 
 .jumbotron h1 p,
 .buttons,
 #mapButton {
-    background-color: $bgcolorJumbo;
-    color: black;
+  background-color: $bgcolorJumbo;
+  color: black;
 }
 
 .jumbotron h1 {
-    font-family: "Montserrat Subrayada", sans-serif;
-    font-size: 80px;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 80px;
 }
 
 .jumbotron p {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .jumbotron a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .jumbotron a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 iframe {
-    width: 100%;
-    height: 30em;
-    display: block;
+  width: 100%;
+  height: 30em;
+  display: block;
 }
 
 .nav-item:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 
-    h2 {
-        font-weight: 700;
-    }
+  h2 {
+    font-weight: 700;
+  }
 }
 
 .butiker {
-    height: 20rem;
-    width: 40rem;
+  height: 20rem;
+  width: 40rem;
 }
 
 .content-text {
-    p {
-        padding-top: 20px;
-    }
+  p {
+    padding-top: 20px;
+  }
 }
 
 .content-image img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .carousel-text {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .row-car {
+  width: 100%;
+  height: 400px;
+
+  #carousel {
     width: 100%;
     height: 400px;
 
-    #carousel {
+    .carousel-inner {
+      width: 100%;
+      height: 100%;
+
+      .carousel-item {
         width: 100%;
         height: 400px;
 
-        .carousel-inner {
-            width: 100%;
-            height: 100%;
-
-            .carousel-item {
-                width: 100%;
-                height: 400px;
-
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-
+        img {
+          width: 100%;
+          height: 100%;
         }
+      }
     }
-
+  }
 }
 
 .article {
-    background-color: #f8f4f4;
-    padding: 20px;
+  background-color: #f8f4f4;
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+  border-radius: 5px 5px 5px;
+
+  h2 {
+    font-weight: 700;
+  }
+
+  img {
     width: 100%;
-    height: 90%;
+    height: 100%;
     border-radius: 5px 5px 5px;
+  }
 
-    h2 {
-        font-weight: 700;
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
-        border-radius: 5px 5px 5px;
-    }
-
-    .article-img-1 {
-        padding-top: 23px;
-    }
+  .article-img-1 {
+    padding-top: 23px;
+  }
 }
 
-
 .map-button {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .mail {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .jumbotron {
-    background-image: url(images/Best-Kitchen-Knives.jpeg);
-    background-repeat: no-repeat;
-    height: 50vh;
-    background-size: cover;
-
+  background-image: url(images/Best-Kitchen-Knives.jpeg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-size: cover;
 }
 
 @media screen and (max-width: 992px) {
-    .jumbotron {
-        height: 40vh;
-    }
+  .jumbotron {
+    height: 40vh;
+  }
+  .jumbotron h1 {
+    font-size: 70px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .jumbotron {
-        height: 30vh;
-    }
+  .jumbotron {
+    height: 30vh;
+  }
+
+  .jumbotron h1 {
+    font-size: 60px;
+  }
 }
